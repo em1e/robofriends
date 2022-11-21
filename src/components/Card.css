@@ -1,0 +1,26 @@
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 250px));
+    grid-gap: 5px;
+    justify-content: center;
+
+}
+
+.zone {
+    border-radius:10px;
+    transition: all 0.2s linear;
+}
+
+.box {
+    padding: 30px;
+    margin: 5px;
+    border: 50px;
+    background: lightseagreen;
+    text-align: center;
+    font-size: small;
+
+}
+
+.grow:hover {
+	transform: scale(1.05); 
+}
